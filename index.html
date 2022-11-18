@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practical</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+  </head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#showMenu").click(function(){
+    $("nav").css("right", "0");
+  });
+});
+  $(document).ready(function(){
+  $("#close-menu").click(function(){
+    $("nav").css("right", "-300px");
+  });
+});
+</script>
+  <body>
+    <!--start Header -->
+    <header>
+      <div class="container">
+        <div class="overlay">
+          <div class="top-nav">
+            <div class="phone">
+              <a href="#"
+                ><span style="margin-left:-54px ;"
+                  ><i class="fa-solid fa-phone"></i>for further inquiries:<br />+01(977)2599
+                  12</span
+                ></a
+              >
+            </div>
+
+            <div class="logo">
+              <a href="#"><img src="images/logo.png" class="logo" /></a>
+            </div>
+
+            <div class="last">
+              <a href="#"
+                ><span
+                  ><i class="fa-solid fa-magnifying-glass"></i
+                  ><i class="fa-solid fa-bars" id="showMenu"></i></span
+              ></a>
+            </div>
+          </div>
+
+          <!-- navigation bar -->
+          <nav>
+          
+
+              <i class="fa fa-times" id="close-menu"></i>
+            <div class="social-icon">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-youtube"></i>
+            </div>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">destination</a></li>
+              <li><a href="#">Packages</a></li>
+              <li><a href="#">pages</a></li>
+              <li><a href="#">contact-us</a></li>
+            </ul>
+            <form>
+              <button>BOOK NOW</button>
+            </form>
+          </nav>
+
+          
+            
+
+          <!-- navigation end -->
+
+          <!-- banner-txt -->
+          <div class="con-txt">
+            <h1>journy to<br />explore world</h1>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad
+              accusamus dicta molestia  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad
+              accusamus dicta molestia
+              exercitationem debitis neque sint, voluptate quo iusto tempore,
+              earum numquam sapiente eum veritatis
+            </p>
+            <a href="#">learn more</a><a href="#" style="border: 1px solid #fff;background-color: transparent;">book now</a>
+          </div>
+        </div>
+      </div>
+      <!-- banner-end -->
+    </header>
+
+    <!-- End Header -->
+
+    <!-- Start Search Section -->
+
+    <div class="container">
+      <section class="search">
+        <form>
+          <div class="ingroup contact">
+            <label for="flname">Search destination:</label>
+            <input name="flname" placeholder="Enter place name." type="text" />
+          </div>
+          <div class="ingroup contact">
+            <label for="phonenum">Pax Number:</label>
+            <input name="phonenum" placeholder="No of pepole." type="tel" />
+          </div>
+          <div class="ingroup contact">
+            <label for="date">Checkin date:</label>
+            <input name="date" placeholder="MM/DD/YY" type="date" />
+          </div>
+
+          <div class="ingroup contact">
+            <label for="date">Checkout date:</label>
+            <input name="date" placeholder="MM/DD/YY" type="date" />
+          </div>
+
+          <div class="ingroup contact">
+            <button>INQUIRE NOW</button>
+          </div>
+        </form>
+      </section>
+      <!-- End search section -->
+
+    </div>
+    </div>
+
+
+    <!-- popular destination start -->
+    <div class="container">
+        <section class="dest-place">
+        
+            <p>uncover place</p>
+            <h2>popular destination</h2>
+            <small
+              >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa
+              quam nihil velit, ea delectus natus
+              molestiae architecto dolorum voluptasdolore quasi.</small
+            >
+          <div class="visit-place">
+            <div class="place-nm">
+                <div class="card">
+        
+                    <div class="card-txt">
+                        <p>ITALY</p>
+                        <h3>SAN MIGUEl</h3>
+                        <small>Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Maxime nesciunt<br> beatae incidunt </small>
+                        <div class="star-icon">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="place-nm">  
+        
+                <div class="card-txt">
+                    <p>DUBAI</p>
+                    <h3>BURJ KHALIFA</h3>
+                    <small>Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Maxime nesciunt<br> beatae incidunt </small>
+                    <div class="star-icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="place-nm">
+            
+                <div class="card-txt">
+                    <p>JAPAN</p>
+                    <h3>KYOTO TAMPLE</h3>
+                    <small>Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Maxime nesciunt<br> beatae incidunt </small>
+                    <div class="star-icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+        
+          </div>
+          <a href="#">MORE DESTINATION</a>
+<!-- popular destination End -->
+
+
+
+          <div class="packages">
+            <div class="dest-place">
+                <p>popular packages</p>
+                <h2>checkout our packages</h2>
+                <small
+                  >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa
+                  quam nihil velit, ea delectus natus<br />
+                  molestiae architecto dolorum voluptasdolore quasi.</small
+                >
+              </div>
+
+              <div class="package-detail">
+                <div class="package-img">
+                    <img src="images/img11.jpg">
+                </div>
+                <div class="package-desc">
+                    <h4>expirence the great<br> holiday on beach</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Asperiores commod<br>quo cum harum eius.</p>
+
+
+                    <div class="more-detail">
+                      <span><i class="fa-solid fa-clock"></i>6D/5N</span> <span><i class="fa-solid fa-user-group"></i>pax:10</span><span><i class="fa-solid fa-location-dot"></i>Malaysia</span>
+                    </div>
+                </div>
+                
+                <div class="package-prise">
+                    <span>(25 reviews)<i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i></span>
+                        <h2>$750</h2>
+                        <i>/per person</i><br>
+                        <a href="#">BOOK NOW</a>
+                </div>
+              </div>
+
+
+
+              <div class="package-detail">
+                <div class="package-img">
+                    <img src="images/img7.jpg">
+                </div>
+                <div class="package-desc">
+                    <h4>summer holiday to<br> oxolotan river</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Asperiores commod<br>quo cum harum eius.</p>
+
+
+                    <div class="more-detail">
+                      <span><i class="fa-solid fa-clock"></i>5D/4N</span> <span><i class="fa-solid fa-user-group"></i>pax:10</span><span><i class="fa-solid fa-location-dot"></i>Malaysia</span>
+                    </div>
+                </div>
+                
+                <div class="package-prise">
+                    <span>(25 reviews)<i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i></span>
+                        <h2>$520</h2>
+                        <i>/per person</i><br>
+                        <a href="#">BOOK NOW</a>
+                </div>
+              </div>
+
+
+              <div class="package-detail">
+                <div class="package-img">
+                    <img src="images/img14.jpg">
+                </div>
+                <div class="package-desc">
+                    <h4>santorini island's weekednd<br>vacation</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Asperiores commod<br>quo cum harum eius.</p>
+
+
+                    <div class="more-detail">
+                      <span><i class="fa-solid fa-clock"></i>6D/5N</span> <span><i class="fa-solid fa-user-group"></i>pax:10</span><span><i class="fa-solid fa-location-dot"></i>Malaysia</span>
+                    </div>
+                </div>
+                
+                <div class="package-prise">
+                    <span>(25 reviews)<i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i></span>
+                        <h2>$660</h2>
+                        <i>/per person</i><br>
+                        <a href="#">BOOK NOW</a>
+                </div>
+              </div>
+            
+    
+          </div>
+         <span class="view-all-btn"> <a href="#">view all packages</a></span>
+              
+          
+        </section>
+    </div>
+
+    <!-- package details End -->
+
+<!-- ready travel section-start -->
+    <section class="ready-travel">
+      <div class="travel-text">
+        <i class="fa-solid fa-play"></i>
+        <h2>are you ready to travel?<br>remember us!!</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum, saepe? Consequuntur delectus velit perspiciatis vitae eveniet </p>
+
+        <a href="#">view packages</a> <a href="#">learn more</a>
+      </div>
+      <div class="trvel-data">
+        <div class="box-1">
+          <h3>26K+</h3>
+          <p>SATISFIED CUSTOMER</p>
+        </div>
+        <div class="box-1">
+          <h3>5+</h3>
+          <p>ACTIVE MEMBER</p>
+        </div>
+        <div class="box-1">
+          <h3>71+</h3>
+          <p>TOUER DESTINATIO</p>
+        </div>
+        <div class="box-1" style="border-right: none;">
+          <h3>24+</h3>
+          <p>TRAVEL GUIDES</p>
+        </div>
+      </div>
+
+
+     
+
+
+    </section>
+
+    <!-- spacial-package -->
+    <section class="special-package">
+      <div class="dest-place">
+        <p>offer&discount</p>
+        <h2>our spacial packages</h2>
+        <small
+          >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa
+          quam nihil velit, ea delectus natus
+          molestiae architecto dolorum voluptasdolore quasi.</small
+        >
+      </div>
+
+      <div class="pack-detail">
+        <div class="pack-1">
+          <div class="about-pack">
+
+              <span><i class="fa-solid fa-clock"></i>7D/6N</span> <span><i class="fa-solid fa-user-group"></i>pax:10</span><span><i class="fa-solid fa-location-dot"></i>Malaysia</span>
+              <h4>tour to satorini</h4>
+              <p>Lorem ipsum dolor sit amet <br>consectetur adipi</p>
+              <h5>price:<del>$1300</del>$1105</h5>
+              <a href="#">book now</a>
+
+             
+            
+        </div>
+        <p class="upto">UPTO 25% off</p>
+          </div>
+
+        
+
+        <div class="pack-2">
+          <div class="about-pack">
+
+            <span><i class="fa-solid fa-clock"></i>5D/4N</span> <span><i class="fa-solid fa-user-group"></i>pax:10</span><span><i class="fa-solid fa-location-dot"></i>Malaysia</span>
+            <h4>weekednd to paris</h4>
+            <p>Lorem ipsum dolor sit amet <br>consectetur adipi</p>
+            <h5>price:<del>$1100</del>900</h5>
+            <a href="#">book now</a>
+          
+      </div>
+      <p class="upto">UPTO 17% off</p>
+        </div>
+      </div>
+      
+      </div>
+      <a href="#" class="view-all-btn">view all package</a>
+      </section>
+
+      <!-- specila package End -->
+
+
+
+      <!-- photo gallary start -->
+
+
+      <section class="photo-gallary">
+        <div class="dest-place">
+          <p>photo gallery</p>
+          <h2>photo's from traveller</h2>
+          <small
+            >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa
+            quam nihil velit, ea delectus natus<br />
+            molestiae architecto dolorum voluptasdolore quasi.</small
+          >
+        </div>
+
+
+        <div class="img-gallary">
+          <div class="img-part-1">
+            <img src="images/img14.jpg">
+          </div>
+          <div class="img-part-2">
+            <img src="images/img11.jpg">
+          </div>
+          
+          <div class="img-part-3">
+            <img src="images/img16.jpg">
+          </div>
+          <div class="img-part-4">
+            <img src="images/img4.jpg">
+          </div>
+          <div class="img-part-5">
+            <img src="images/img8.jpg">
+          </div>
+        
+        </div>
+      </section>
+       <!-- photo gallary End -->
+       <!-- section get-discount-start -->
+       <section class="get-discount">
+        
+          <div class="descount-text">
+            <p>DISCOUNT OFFER</p>
+            <h2>get spacial discount<br>on sign up!</h2>
+            <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> Dolorum aspernatur quaerat consequuntur </small><br>
+            <a href="#">sign up now</a>
+          </div>
+
+          <div class="discount-icon">
+            <i class="fa-regular fa-image"></i>
+            <i class="fa-solid fa-music"></i>
+            <i class="fa-solid fa-house"></i><br>
+            <i class="fa-solid fa-mug-hot"></i>
+            <i class="fa-solid fa-bookmark"></i>
+            <i class="fa-solid fa-plane"></i>
+          </div>
+        
+
+       </section>
+
+        <!-- section our blog -->
+
+        <section class="our-recent-blog">
+          <div class="latest-blog">
+            <div class="txt">
+              <p>LATEST BLOG</p>
+              <h2>OUR RECENT POSTS</h2>
+              <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum illo architecto est sunt, nesciunt <br>quasi sit expedita inventore minus, reiciendis tempora cumque </small>
+            </div>
+            <div class="btn">
+              <a href="#">view all blog</a>
+            </div>
+          </div>
+
+          <div class="blog-card">
+            <div class="card-1">
+              <div class="card-content">
+                <div class="images">
+                  <img src="images/img7.jpg">
+                </div>
+                  <div class="post-details">
+                    <p>tour</p>
+                    <h2>best journey to<br> peacful accsess</h2>
+                    <small>Lorem ipsum dolor sit, amet consectetur<br> adipisicing elit. Aliquid labore mollitia dignissimos <br>totam debitarum reiciendis saepe, delect</small><br>
+                    <a href="#">read more</a>
+                   <span class="msg-icon"> <i class="fa-solid fa-message"></i> 0</span>
+                  </div>
+               
+              </div>
+            
+            </div>
+            <div class="card-1">
+              <div class="card-content">
+                <div class="images">
+                  <img src="images/img7.jpg">
+                </div>
+                  <div class="post-details">
+                    <p>tour</p>
+                    <h2>travel with <br>friends is best</h2>
+                    <small>Lorem ipsum dolor sit, amet consectetur<br> adipisicing elit. Aliquid labore mollitia dignissimos <br>totam debitarum reiciendis saepe, delect</small><br>
+                    <a href="#">read more</a>
+                    <span class="msg-icon"> <i class="fa-solid fa-message"></i> 0</span>
+                  </div>
+               
+              </div>
+            </div>
+          </div>
+
+        </section>
+         <!-- section our blog end -->
+
+
+         <!-- sectoin review-page Start -->
+
+         <section class="review-page">
+          <div class="dest-place">
+            <p>clients review</p>
+            <h2>traveller's testimonial</h2>
+            <small
+              >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa
+              quam nihil velit, ea delectus natus<br />
+              molestiae architecto dolorum voluptasdolore quasi.</small
+            >
+          </div>
+          <div class="reviews">
+            <div class="review-detail">
+              <div class="review-icon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, inventore hic ratione rerum nesciunt consequuntur reiciendis facilis vitae dignissimos aliquid, sapiente omnis.</p>
+              <div class="review-img">
+                <div class="img-photo">
+                  <img src="images/user-2.jpg">
+                </div>
+                  <div class="img-txt">
+                    <h5>GEORGE SMITH</h5>
+                    <small>TRAVELLER</small>
+                  </div>
+                 
+                
+              </div>
+            </div>
+
+
+            <div class="review-detail">
+              <div class="review-icon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, inventore hic ratione rerum nesciunt consequuntur reiciendis facilis vitae dignissimos aliquid, sapiente omnis.</p>
+              <div class="review-img">
+                <div class="img-photo">
+                  <img src="images/user-1.jpg">
+                </div>
+                  <div class="img-txt">
+                    <h5>ALISON WHITE</h5>
+                    <small>TRAVELLER</small>
+                  </div>
+                 
+                
+              </div>
+            </div>
+
+
+            <div class="review-detail">
+              <div class="review-icon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, inventore hic ratione rerum nesciunt consequuntur reiciendis facilis vitae dignissimos aliquid, sapiente omnis.</p>
+              <div class="review-img">
+                <div class="img-photo">
+                  <img src="images/user-1.jpg">
+                </div>
+                  <div class="img-txt">
+                    <h5>ALISON WHITE</h5>
+                    <small>TRAVELLER</small>
+                  </div>
+                 
+                
+              </div>
+            </div>
+           
+          </div>
+
+         </section>
+ <!-- sectoin review-page End -->
+
+
+ <!-- call to action Start -->
+
+         <section class="call-action">
+          <div class="container">
+            <div class="call">
+
+              <div class="col-txt">
+                <p>CALL TO ACTION</p>
+                <h2>ready for unforgotable<br>travel. remember us!</h2>
+                <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> Dolorum aspernatur quaerat consequuntur </small>
+              </div>
+             
+              <div class="call-btn">
+                <a href="#">sign up now</a>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        <!-- call to action End -->
+
+      
+         </section>
+  <!-- Footer section start -->
+        <section class="footer">
+          <footer>
+            <div class="footer-top">
+              <div class="f-logo">
+                <img src="images/logo.png" class="footer-logo"><br>
+                <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit corporis consequatur earum numquam officia id reprehenderit aperiam sequi esse ut qui ducimus, voluptatibus sunt, ipsum blanditiis. Possimus porro quo explicabo.</small>
+
+              </div>
+           
+
+            <div class="recent-post">
+              <h5>RECENT POST</h5>
+              <div class="re-post-1">
+                <div class="re-img">
+                  <img src="images/img14.jpg">
+                </div>
+                <div class="re-txt">
+                  <small>BEST JOURNEY TO<br>PEACEFUL PLACES</small><br>
+                  <i>February-17 20222</i>
+                </div>
+              </div>
+
+              <div class="re-post-1">
+                <div class="re-img">
+                  <img src="images/img14.jpg">
+                </div>
+                <div class="re-txt">
+                  <small>BEST JOURNEY TO<br>PEACEFUL PLACES</small><br>
+                  <i>February-17 20222</i>
+                </div>
+              </div>
+            </div>
+          
+
+
+            <div class="contact-us">
+              <h5>CONTACT US</h5>
+              <p>fell free to contact and reach us!!</p>
+              <ul>
+                <li><a href="#"><i class="fa-solid fa-phone"></i>+01(998)256 063</a></li>
+                <li><a href="#"><i class="fa-solid fa-envelope"></i>info@domain.com</a></li>
+                <li><a href="#"><i class="fa-solid fa-location"></i>314,kontez,California</a></li>
+              </ul>
+            </div>
+
+            <div class="gallary">
+              <h5>Gallary</h5>
+              <div class="gallary-images">
+                <div class="image">
+                  <img src="images/img14.jpg">
+                </div>
+                <div class="image">
+                  <img src="images/img11.jpg">
+                </div>
+                <div class="image">
+                  <img src="images/img21.jpg">
+                </div>
+                <div class="image">
+                  <img src="images/img1.jpg">
+                </div>
+                <div class="image">
+                  <img src="images/img16.jpg">
+                </div>
+                <div class="image">
+                  <img src="images/img14.jpg">
+                </div>
+              </div>
+              
+            </div>
+            
+          </div>
+          <hr style="margin: 0 auto;width: 75%;color: gray;">
+          </footer>
+          <div class="footer-bottom">
+            <div class="subscribe">
+              <p>Subscribe our newsletter for more updates & news!!</p>
+              <form>
+                <input type="email" placeholder="Enter your mail">
+                <button>subscribe</button>
+              </form>
+            </div>
+
+            <div class="footer-icon">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-youtube"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-linkedin-in"></i>
+
+              <div class="links">
+                <a href=#>Privacy Policy</a>
+                <a href=#>Term & Condition</a>
+                <a href=#>FAQ</a>
+              </div>
+
+              <!-- <p>Privacy Policy Term & Condition FAQ</p> -->
+            </div>
+          </div>
+        </section>
+
+
+
+        <!-- <script>
+          var navLinks=document.getElementsById("navLinks");
+  
+          function showMenu(){
+              navLinks.style.right="0";
+  
+          }
+  
+          function hideMenu(){
+              navLinks.style.right="-300px";
+  
+          }
+      </script> -->
+  </body>
+</html>
